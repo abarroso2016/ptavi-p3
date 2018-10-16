@@ -80,5 +80,3 @@ if __name__ == "__main__":
     cHandler = SmallSMILHandler()
     parser.setContentHandler(cHandler)
     parser.parse(open('karaoke.smil'))
-    for x in lis:
-        print(x)
